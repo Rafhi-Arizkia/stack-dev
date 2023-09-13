@@ -1,7 +1,6 @@
 import "../Css/Content.css";
 import Rocket from "../Images/Untitled-removebg-preview.png";
 import Card from "react-bootstrap/Card";
-import Button from 'react-bootstrap/Button';
 
 const Content = () => {
   return (
@@ -9,14 +8,12 @@ const Content = () => {
       {/* Paragraf1 */}
       <div className="wrapper">
         <div className="paragraf">
-          <div className="paragraf-content">
-            Selamat Datang di Website Kami
-            <br />
-            <h3>Skripsi, Tugas Akhir & Jurnal</h3>
-            Tetap semangat, jangan pernah berputus asa!
-            <br />
-            <button className="paragraf-btn">Ya, Siap untuk Skripsi</button>
-          </div>
+          Selamat Datang di Website Kami
+          <br />
+          <h3>Skripsi, Tugas Akhir & Jurnal</h3>
+          Tetap semangat, jangan pernah berputus asa!
+          <br />
+          <button className="paragraf-btn">Ya, Siap untuk Skripsi</button>
         </div>
         {/* Gambar 1 */}
         <div className="paragraf-img">
@@ -24,12 +21,10 @@ const Content = () => {
         </div>
       </div>
       {/* Paragraf 2 */}
-      <div className="wrapper-content2">
-        <div className="paragraf-content2">
-          Halo! Kami Siap Membantu Membuat Skripsi
-          <br />
-          Sampai Anda Lulus
-        </div>
+      <div className="paragraf-content2">
+        Halo! Kami Siap Membantu Membuat Skripsi
+        <br />
+        Sampai Anda Lulus
       </div>
       {/* card content 1 */}
       <div className="card-content1">
