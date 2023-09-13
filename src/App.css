@@ -1,0 +1,20 @@
+.App {
+  height: auto;
+  width: auto;
+}
+
+.App-header {
+  min-height: 100vh;
+  background-color: #91C8E4;
+  color: black;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .App-header{
+    width: 100vh;
+    font-size: 16px;
+  }
+  
+}
+
