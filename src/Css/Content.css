@@ -30,6 +30,7 @@
 }
 
 /* content 2 */
+/* isi content 2 */
 
 .paragraf-content2{
   text-align: center;
@@ -45,24 +46,37 @@
   border: 1px solid black;
 }
 
+/* card content 2 */
+.card-content2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 80px;
+}
+
+.card-content2-img {
+  width: 100%;
+}
+
 .paragraf-img2 {
-  margin-left: 50px;
   margin-top: -10px;
 }
 
 .rocket-img2{
-  width: 200px;
+  width: 400px;
 }
 
-/* card content */
-.card-content2{
+.btn-wrapper{
   display: flex;
   justify-content: center;
-
+  margin-top: 30px;
 }
 
-
-
+.btn-card{
+  background-color: red !important;
+  border: none;
+  border-radius: 3px;
+}
 
 
 
