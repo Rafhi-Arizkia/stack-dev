@@ -4,7 +4,6 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 35px;
-  border: 1px solid red;
 }
 
 .paragraf{
@@ -35,15 +34,13 @@
 .paragraf-content2{
   text-align: center;
   font-size: 17px;
-  border: 1px solid forestgreen;
 } 
 
 /* card content 1 */
 .card-content1 {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  border: 1px solid black;
+  margin-top: 30px;
 }
 
 /* card content 2 */
@@ -76,15 +73,59 @@
   background-color: red !important;
   border: none;
   border-radius: 3px;
+  height: 30px;
+  width: 140px;
+  color: white;
 }
 
+/* paragarf content 3 */
+.paragraf-content3{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
 
+.card-content3{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
+.paragraf-text3{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
 
+.wrapper-btn3{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 
+.paragraf-btn3{
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 140px;
+  border-radius: 4px;
+}
 
+/* Paragraf 4 */
 
+.paragraf-content4{
+  border-top: 1px solid black;
+  margin-top: 40px;
+}
 
+.card-content4{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
 /* Media query untuk perangkat mobile */
 @media (max-width: 768px) {

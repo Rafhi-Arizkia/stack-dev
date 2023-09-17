@@ -11,7 +11,7 @@ function App() {
       <div className='App-header'>
         <NavbarComponent></NavbarComponent>
         <Content></Content>
-        {/* <FooterComponent></FooterComponent> */}
+        <FooterComponent></FooterComponent>
       </div>
     </div>
   );
